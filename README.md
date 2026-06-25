@@ -1,36 +1,155 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🐄 PasuCare Veterinary System
 
-## Getting Started
+PasuCare is a web-based veterinary appointment booking system designed especially for cattle healthcare management. It allows farmers to book appointments online and helps veterinarians manage appointments efficiently.
 
-First, run the development server:
+---
+
+## ✨ Features
+
+### 👨‍🌾 User Features
+- Book veterinary appointments online
+- View all booked appointments
+- Cancel appointments
+- Search appointments using phone number
+- User-friendly interface
+
+### 👨‍⚕️ Admin Features
+- Secure admin login
+- Dashboard with analytics
+- Appointment calendar view
+- Manage appointments
+- Update appointment status
+- Reports and statistics
+- Notifications management
+
+---
+
+## 🛠️ Technology Stack
+
+- Next.js 16
+- React 19
+- TypeScript
+- Prisma ORM
+- PostgreSQL
+- NextAuth
+- Tailwind CSS
+- FullCalendar
+- Recharts
+
+---
+
+## 📂 Project Structure
+
+```text
+src/
+├── app/
+│   ├── admin/
+│   ├── api/
+│   ├── book/
+│   ├── bookings/
+│   └── login/
+├── lib/
+
+prisma/
+├── migrations/
+└── schema.prisma
+```
+
+---
+
+## 🚀 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/sangaviasokan-a/pasucare-veterinary-system.git
+```
+
+Go to the project folder:
+
+```bash
+cd pasucare-veterinary-system
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Create a `.env` file:
+
+```env
+DATABASE_URL=your_database_url
+NEXTAUTH_SECRET=your_secret_key
+NEXTAUTH_URL=http://localhost:3000
+```
+
+Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```text
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## 🔐 Admin Login
 
-To learn more about Next.js, take a look at the following resources:
+```text
+Email: admin@gmail.com
+Password: 123456
+```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## 📊 System Modules
 
-## Deploy on Vercel
+- Appointment Booking
+- Appointment Management
+- Calendar Management
+- Reports Dashboard
+- Notifications
+- Authentication
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+---
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## 🌐 Deployment
+
+The application can be deployed using:
+
+- Vercel
+- Render
+- Railway
+
+---
+
+## 📸 Screenshots
+
+Add screenshots of:
+
+- Home Page
+- Book Appointment Page
+- My Bookings Page
+- Admin Dashboard
+- Calendar View
+
+---
+
+## 👩‍💻 Author
+
+**Sangavi Asokan**
+
+GitHub:
+https://github.com/sangaviasokan-a
+
+---
+
+## 📄 License
+
+This project is developed for learning and real-world veterinary clinic management purposes.
